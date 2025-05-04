@@ -1,0 +1,6 @@
+D:\Progs\Leetcode\80\bin\Debug\80.exe
+D:\Progs\Leetcode\80\bin\Debug\80.pdb
+D:\Progs\Leetcode\80\obj\Debug\80.csproj.AssemblyReference.cache
+D:\Progs\Leetcode\80\obj\Debug\80.csproj.CoreCompileInputs.cache
+D:\Progs\Leetcode\80\obj\Debug\80.exe
+D:\Progs\Leetcode\80\obj\Debug\80.pdb

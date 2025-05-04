@@ -1,0 +1,6 @@
+D:\Progs\Leetcode\27\bin\Debug\27.exe
+D:\Progs\Leetcode\27\bin\Debug\27.pdb
+D:\Progs\Leetcode\27\obj\Debug\27.csproj.AssemblyReference.cache
+D:\Progs\Leetcode\27\obj\Debug\27.csproj.CoreCompileInputs.cache
+D:\Progs\Leetcode\27\obj\Debug\27.exe
+D:\Progs\Leetcode\27\obj\Debug\27.pdb

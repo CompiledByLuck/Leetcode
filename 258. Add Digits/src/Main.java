@@ -3,6 +3,7 @@ Given an integer num, repeatedly add all its digits until the result has only on
  */
 
 import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class Main {
