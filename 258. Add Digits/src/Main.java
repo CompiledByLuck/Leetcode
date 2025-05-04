@@ -2,33 +2,27 @@
 Given an integer num, repeatedly add all its digits until the result has only one digit, and return it.
  */
 
+import java.lang.reflect.Array;
+import java.util.LinkedList;
+
 public class Main {
     public static void main(String[] args) {
-        int num = 38;
+        int num = 9;
         System.out.println(addDigits(num));
     }
 
     public static int addDigits(int num) {
-        int ans = num;
-        while (ans > 9) {
-            int tmp = num;
-            int numsize = 0;
-            while (tmp > 0) {
-                tmp = tmp / 10;
-                numsize++;
+        while (num > 9) {
+            char[] ch = Integer.toString(num).toCharArray();
+            int[] digits = new int[ch.length];
+            for (int i = 0; i < ch.length; i++) {
+                digits[i] = Character.digit(ch[i], 10);
             }
-            int[] arr = new int[numsize];
-            for (int i = 0; i < arr.length; i++) {
-                if (num<10){
-                    arr[i] = num;
-                } else {
-                    arr[i] = num/10;
-                    num = num/10;
-
-                }
+            for (int i = 1; i < digits.length; i++) {
+                digits[0] += digits[i];
+                num = digits[0];
             }
-            num = ans;
         }
-        return ans;
+        return num;
     }
 }
